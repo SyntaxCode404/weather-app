@@ -2,7 +2,7 @@ async function fetchWeather() {
     let searchInput = document.getElementById("search").value;
     const weatherDataSection = document.getElementById("weather-data");
     weatherDataSection.style.display = "block";
-    const apiKey = "0b54755d2fa09157b4171218cb7af595";
+    const apiKey = "";
 
     async function getLonAndLat() {
         const countryCode = 63;
